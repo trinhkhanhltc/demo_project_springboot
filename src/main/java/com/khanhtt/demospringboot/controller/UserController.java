@@ -12,4 +12,9 @@ public class UserController {
   {
     return "Hello World";
   }
+
+  @GetMapping("/add")
+  public String addUser(){
+    return "Hello Add User";
+  }
 }
